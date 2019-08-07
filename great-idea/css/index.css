@@ -91,7 +91,7 @@ header nav a {
 	justify-content: flex-end;
 }
 section {
-	margin: 50px 0 25px;
+	margin: 40px 0 25px;
 }
 .getstarted {
 	display: flex;
@@ -164,3 +164,50 @@ footer .copyright {
 	width: 100%;
 	padding: 20px 0px 100px;
 }
+
+/* services spacific CSS */
+.services-header-img {
+	width: 100%;
+	height: 50vh;
+	padding: 40px 0 0;
+}
+
+.services-intro {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	background: skyblue;
+    opacity: 0.8;
+    padding: 20px;
+    width: 100%;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: center;
+}
+
+/* .some-facts {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+} */
+
+.design, .ux, .digital, .web, .ios, .andriod {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	width: 285px;
+	padding-bottom: 25px;
+}
+#main-content-services {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+h3 {
+	padding-top: 20px;
+}
+
