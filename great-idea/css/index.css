@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5 {
 	width:900px;
 	margin: auto;
 }
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -188,11 +189,18 @@ h2 {
 	text-align: center;
 }
 
-/* .some-facts {
+.some-facts p {
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	justify-content: space-around;
+}
+.some-facts {
 	display: flex;
 	justify-content: center;
-	text-align: center;
-} */
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
 
 .design, .ux, .digital, .web, .ios, .andriod {
 	display: flex;
@@ -204,10 +212,20 @@ h2 {
 #main-content-services {
 	display: flex;
     flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 h3 {
 	padding-top: 20px;
 }
 
+#header4 {
+	color: skyblue;
+	font-size: 30px;
+	text-align: center;
+}
+
+.points {
+	font-size:60px;
+	font-style: italic;
+}
